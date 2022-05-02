@@ -1,5 +1,3 @@
-function say() {
-    return "Hello !!";
-}
+import say from "./src/say/say.js";
 
-module.exports = { say };
+export const say = say;
