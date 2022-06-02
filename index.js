@@ -1,3 +1,3 @@
-import say from "./src/say/say.js";
+const say = require("say");
 
-export const say = say;
+module.exports = say;

@@ -3,9 +3,10 @@
     "version": "1.0.0",
     "description": "A Multipurpose NPM Package",
     "main": "index.js",
-    "type": "module",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "dev": "nodemon .",
+        "start": "node .",
+        "test": "test"
     },
     "repository": {
         "type": "git",
