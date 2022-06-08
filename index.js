@@ -1,3 +1,3 @@
 const say = require("./src/say/say");
 
-module.exports = say;
+module.exports.say = say;
